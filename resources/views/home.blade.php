@@ -8,8 +8,8 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    Using Auth Function : " {{ Auth::user()->first_name }} {{ Auth::user()->last_name }} " are logged in! <br>
-                    Using custom helper Function : " {{ MyFuncs::auth_user_name() }} " are logged in!
+                    Test Using Auth Function : " {{ Auth::user()->first_name }} {{ Auth::user()->last_name }} " are logged in! <br>
+                    Test Using custom helper Function : " {{ MyFuncs::auth_user_name() }} " are logged in!
                 </div>
             </div>
         </div>
